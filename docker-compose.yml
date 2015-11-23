@@ -1,7 +1,7 @@
 dataonly:
-  image: chrispiemo/data-only
+  image: chrispiemo/rpi-dataonly
 redis:
-  image: redis:3.0.4
+  image: hypriot/rpi-redis:3.0.0
   volumes_from:
    - dataonly
   command: redis-server --appendonly yes

@@ -1,4 +1,4 @@
-FROM chrispiemo/java-maven
+FROM chrispiemo/rpi-java
 
 ADD ./server /code/server
 ADD ./client/dist /code/client/dist
